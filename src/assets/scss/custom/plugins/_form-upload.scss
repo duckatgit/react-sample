@@ -1,0 +1,115 @@
+//
+// Form-Upload
+//
+
+/* Dropzone */
+.dropzone {
+  min-height: 180px;
+  border: 2px dashed $gray-400;
+  background: $card-bg;
+  border-radius: 6px;
+  position: relative;
+  .dz-message {
+    font-size: 24px;
+    width: 100%;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.dropzone-sm {
+  min-height: 130px;
+
+  .dz-message {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+.dropzone-previews .close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 100;
+  float: right;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  .close-content {
+    background-color: #d0e5f5;
+    color: #000;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 4px 6px;
+    font-size: 1.21875rem;
+    font-weight: 600;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+
+    .close-conten:hover {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}
+
+.dropzone-single-image {
+  position: relative;
+  cursor: pointer;
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+
+  .edit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 1.2rem; /* Adjust the size of the edit button */
+    width: 1.2rem; /* Adjust the size of the edit button */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    font-size: 16px; /* Adjust the font size of the edit icon */
+
+    i {
+      color: white;
+      background: #000000c9;
+      min-width: 25px !important;
+      min-height: 25px !important;
+      line-height: 30px;
+      font-size: 12px; /* Adjust the font size of the edit icon */
+      text-align: center;
+      border-radius: 50%;
+    }
+  }
+
+  :has(img.rounded) {
+    .edit {
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 575px){
+  .dropzone {
+    img{
+      width: 180px!important;
+    }
+  }
+}

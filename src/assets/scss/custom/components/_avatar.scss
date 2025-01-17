@@ -1,0 +1,156 @@
+//
+// avatar.scss
+//
+div#daterange {
+  width: 260px !important;
+  background: #fff;
+  color: #1d3b4a;
+  padding: 8px;
+  line-height: 18px;
+  border-radius: 4px;
+  border-width: 0 1px 4px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.promotionList_image {
+  width: 50px;
+  height: 36px;
+  object-fit: scale-down;
+}
+td.t_fonts {
+  font-size: 12px;
+  font-weight: lighter;
+}
+th.head_txt {
+  font-size: 13px;
+  font-weight: 600;
+}
+.image_textt {
+  font-size: 10px;
+  color: gray;
+  margin-top: 6px;
+}
+.avatar-xs {
+  height: 2rem;
+  width: 2rem;
+}
+
+.avatar-sm {
+  height: 3rem;
+  width: 3rem !important;
+}
+
+.avatar-md {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.avatar-lg {
+  height: 6rem;
+  width: 6rem;
+}
+
+.avatar-xl {
+  height: auto;
+  width: 180px !important;
+  margin: 0px auto !important;
+}
+
+.avatar-title {
+  align-items: center;
+  background-color: $primary;
+  color: $white;
+  display: flex;
+  font-weight: $fw-medium;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+// avatar group
+.avatar-group {
+  padding-left: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  .avatar-group-item {
+    margin-left: -12px;
+    border: 2px solid var(--#{$prefix}custom-white);
+    border-radius: 50%;
+    transition: all 0.2s;
+    &:hover {
+      position: relative;
+      transform: translateY(-2px);
+    }
+  }
+}
+.detail_text {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.order_profile {
+  margin: -25px 0 -20px 25px !important;
+}
+.arrow_icon {
+  position: absolute;
+  top: 4%;
+  left: -3%;
+}
+label.featured_label {
+  padding: 2px 0 0 8px;
+}
+span.category_icon {
+  margin-right: 25px;
+}
+.add_counrt_btn {
+  margin-top: 28px;
+}
+
+.text-right {
+  justify-content: end;
+}
+.import_cancel {
+  margin-left: 5px;
+}
+.delete_modal {
+  display: flex;
+  justify-content: center;
+}
+.cancel_btn {
+  margin-right: 15px;
+}
+.delete_icon {
+  margin-left: 10px;
+}
+.infoimg {
+  width: 100px;
+  margin: 0 auto;
+}
+.search_icon {
+  margin-right: -4px;
+  margin-top: 5px;
+}
+.line_one {
+  width: 100%;
+  justify-content: space-between;
+  // margin-bottom: 20px;
+}
+.left_side_level {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.left_side_level .search-box,
+.left_side_level label.search-label {
+  margin: 0px !important;
+}
+.left_side_level .search-box .form-control {
+  border-radius: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,46 @@
+.search-box.inline-button .search-icon-btn {
+  position: absolute;
+  right: 1px;
+  top: 5.49px;
+  font-size: 16px;
+  background: transparent;
+  color: gray;
+  border: none;
+}
+
+p.review_msg {
+  white-space: break-spaces;
+  line-break: anywhere;
+}
+
+.closeImageIcons {
+  position: absolute;
+  top: -19px;
+  right: -13px;
+  font-size: 23px;
+  background: #4f4b4b;
+  color: white;
+  border-radius: 100px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.customHover a:hover {
+  background-color: black;
+  background: black !important;
+  color: white;
+  cursor: pointer;
+}
+
+.customHover a {
+  color: black;
+  border-color: black;
+}
+.handleRaiseImg img {
+  min-width: 45px;
+  max-width: 45px;
+  height: 45px;
+  min-height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}

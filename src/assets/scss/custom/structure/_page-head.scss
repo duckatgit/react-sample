@@ -1,0 +1,80 @@
+.page-title-box {
+  padding-bottom: $grid-gutter-width;
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+  }
+  h4 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px !important;
+  }
+}
+.searchboxissue {
+  // gap: 65%;
+  width: 100%;
+  justify-content: space-between;
+}
+.searchboxissue7 {
+  width: calc(100% - 90px);
+  justify-content: space-between;
+}
+.searchboxissue8 {
+  width: 100%;
+  justify-content: space-between;
+}
+.searchboxissue3 {
+  width: calc(100% - 135px);
+  justify-content: space-between;
+}
+.searchboxissue5 {
+  width: calc(100% - 110px);
+  justify-content: space-between;
+}
+.searchboxissue2 {
+  width: calc(100% - 185px);
+  justify-content: space-between;
+}
+.searchboxissue22 {
+  width: calc(100% - 124px);
+  justify-content: space-between;
+}
+.searchboxissue4 {
+  width: calc(100% - 120px);
+  justify-content: space-between;
+}
+.searchboxissue4 .page-title-box {
+  padding-bottom: 0 !important;
+}
+.searchboxissue6 {
+  width: calc(100% - 115px);
+  justify-content: space-between;
+}
+.searchBoxsubscription {
+  width: 87%;
+  justify-content: space-between;
+}
+.searchBoxsubscription .page-title-box {
+  padding-bottom: 0 !important;
+}
+button.main-topright-btn {
+  position: absolute;
+  top: -34px !important;
+}
+.searchBox.issue10 {
+  width: calc(100% - 183px);
+  justify-content: space-between;
+}
+.searchboxissue.promo{
+  width: calc(100% - 140px);
+}
+
+.custom-icon {
+  margin-left: 3px; /* Adjust the value as needed */
+}
+
+@media (max-width: 575px){
+  .page-title-box{
+    padding: 0 10px;
+  }
+}
